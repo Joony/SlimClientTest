@@ -32,4 +32,9 @@
     NSLog(@"%@", url);
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{
+    return YES;
+}
+
 @end
