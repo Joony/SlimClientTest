@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F73CD0D21446DFF40089D707 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73CD0D11446DFF40089D707 /* Cocoa.framework */; };
+		F73CD0DC1446DFF40089D707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F73CD0DA1446DFF40089D707 /* InfoPlist.strings */; };
+		F73CD0DE1446DFF40089D707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73CD0DD1446DFF40089D707 /* main.m */; };
+		F73CD0E21446DFF40089D707 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F73CD0E01446DFF40089D707 /* Credits.rtf */; };
+		F73CD0E51446DFF40089D707 /* SlimClientTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73CD0E41446DFF40089D707 /* SlimClientTestAppDelegate.m */; };
+		F73CD0E81446DFF40089D707 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73CD0E61446DFF40089D707 /* MainMenu.xib */; };
+		F73CD0EF1446E21E0089D707 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73CD0EE1446E21E0089D707 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F73CD0CD1446DFF40089D707 /* SlimClientTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlimClientTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73CD0D11446DFF40089D707 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F73CD0D41446DFF40089D707 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F73CD0D51446DFF40089D707 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F73CD0D61446DFF40089D707 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F73CD0D91446DFF40089D707 /* SlimClientTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlimClientTest-Info.plist"; sourceTree = "<group>"; };
+		F73CD0DB1446DFF40089D707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F73CD0DD1446DFF40089D707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F73CD0DF1446DFF40089D707 /* SlimClientTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlimClientTest-Prefix.pch"; sourceTree = "<group>"; };
+		F73CD0E11446DFF40089D707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F73CD0E31446DFF40089D707 /* SlimClientTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimClientTestAppDelegate.h; sourceTree = "<group>"; };
+		F73CD0E41446DFF40089D707 /* SlimClientTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlimClientTestAppDelegate.m; sourceTree = "<group>"; };
+		F73CD0E71446DFF40089D707 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F73CD0EE1446E21E0089D707 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F73CD0F01446E57D0089D707 /* SlimClientTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SlimClientTest.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73CD0CA1446DFF40089D707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73CD0EF1446E21E0089D707 /* WebKit.framework in Frameworks */,
+				F73CD0D21446DFF40089D707 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F73CD0C21446DFF40089D707 = {
+			isa = PBXGroup;
+			children = (
+				F73CD0EE1446E21E0089D707 /* WebKit.framework */,
+				F73CD0D71446DFF40089D707 /* SlimClientTest */,
+				F73CD0D01446DFF40089D707 /* Frameworks */,
+				F73CD0CE1446DFF40089D707 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F73CD0CE1446DFF40089D707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73CD0CD1446DFF40089D707 /* SlimClientTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F73CD0D01446DFF40089D707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73CD0D11446DFF40089D707 /* Cocoa.framework */,
+				F73CD0D31446DFF40089D707 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F73CD0D31446DFF40089D707 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73CD0D41446DFF40089D707 /* AppKit.framework */,
+				F73CD0D51446DFF40089D707 /* CoreData.framework */,
+				F73CD0D61446DFF40089D707 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F73CD0D71446DFF40089D707 /* SlimClientTest */ = {
+			isa = PBXGroup;
+			children = (
+				F73CD0F01446E57D0089D707 /* SlimClientTest.entitlements */,
+				F73CD0E31446DFF40089D707 /* SlimClientTestAppDelegate.h */,
+				F73CD0E41446DFF40089D707 /* SlimClientTestAppDelegate.m */,
+				F73CD0E61446DFF40089D707 /* MainMenu.xib */,
+				F73CD0D81446DFF40089D707 /* Supporting Files */,
+			);
+			path = SlimClientTest;
+			sourceTree = "<group>";
+		};
+		F73CD0D81446DFF40089D707 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F73CD0D91446DFF40089D707 /* SlimClientTest-Info.plist */,
+				F73CD0DA1446DFF40089D707 /* InfoPlist.strings */,
+				F73CD0DD1446DFF40089D707 /* main.m */,
+				F73CD0DF1446DFF40089D707 /* SlimClientTest-Prefix.pch */,
+				F73CD0E01446DFF40089D707 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73CD0CC1446DFF40089D707 /* SlimClientTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73CD0EB1446DFF40089D707 /* Build configuration list for PBXNativeTarget "SlimClientTest" */;
+			buildPhases = (
+				F73CD0C91446DFF40089D707 /* Sources */,
+				F73CD0CA1446DFF40089D707 /* Frameworks */,
+				F73CD0CB1446DFF40089D707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlimClientTest;
+			productName = SlimClientTest;
+			productReference = F73CD0CD1446DFF40089D707 /* SlimClientTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F73CD0C41446DFF40089D707 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F73CD0C71446DFF40089D707 /* Build configuration list for PBXProject "SlimClientTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F73CD0C21446DFF40089D707;
+			productRefGroup = F73CD0CE1446DFF40089D707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73CD0CC1446DFF40089D707 /* SlimClientTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73CD0CB1446DFF40089D707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73CD0DC1446DFF40089D707 /* InfoPlist.strings in Resources */,
+				F73CD0E21446DFF40089D707 /* Credits.rtf in Resources */,
+				F73CD0E81446DFF40089D707 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73CD0C91446DFF40089D707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73CD0DE1446DFF40089D707 /* main.m in Sources */,
+				F73CD0E51446DFF40089D707 /* SlimClientTestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F73CD0DA1446DFF40089D707 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73CD0DB1446DFF40089D707 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F73CD0E01446DFF40089D707 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73CD0E11446DFF40089D707 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F73CD0E61446DFF40089D707 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73CD0E71446DFF40089D707 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F73CD0E91446DFF40089D707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F73CD0EA1446DFF40089D707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F73CD0EC1446DFF40089D707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlimClientTest/SlimClientTest-Prefix.pch";
+				INFOPLIST_FILE = "SlimClientTest/SlimClientTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F73CD0ED1446DFF40089D707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlimClientTest/SlimClientTest-Prefix.pch";
+				INFOPLIST_FILE = "SlimClientTest/SlimClientTest-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F73CD0C71446DFF40089D707 /* Build configuration list for PBXProject "SlimClientTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73CD0E91446DFF40089D707 /* Debug */,
+				F73CD0EA1446DFF40089D707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73CD0EB1446DFF40089D707 /* Build configuration list for PBXNativeTarget "SlimClientTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73CD0EC1446DFF40089D707 /* Debug */,
+				F73CD0ED1446DFF40089D707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F73CD0C41446DFF40089D707 /* Project object */;
+}
